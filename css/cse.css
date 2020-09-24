@@ -1,0 +1,42 @@
+img{
+    width: 100%;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/**/
+#title{
+    font-size: 2em;
+    
+}
+/*drop down menu*/
+.dropdown-menu p{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+.dropdown:hover>.dropdown-menu{
+    display:block;
+}
+
+.btn{
+    background-color: green;
+}
+.btn:hover{
+    background-color: black;
+}
+/*footer*/
+#footer i{
+    font-size: 3em;
+    letter-spacing: 30px;
+    color: green
+    
+    
+}
+#footer p{
+    padding-top: 10px;
+}
+#footer i:hover{
+    
+    transform: scale(1.3);
+}

@@ -1,0 +1,98 @@
+img{
+  width: 100%;
+  box-shadow: 3px 3px 3px;
+  
+}
+
+.container{
+  margin:auto;
+}
+/*default*/
+
+/*header*/
+#main-header{
+  height: 200px;
+  background-color: darkred;
+}
+#main-header h1{
+  padding-top: 40px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 5em;
+  letter-spacing: 5px;
+}
+#main-header h3{
+  font-size: 1em;
+  padding-top: 10px;
+}
+#main-header span{
+  color: white;
+}
+#main-header ul{
+  list-style: none;
+}
+#navbar{
+  text-transform: uppercase;
+}
+#navbar ul li{
+  display: inline;
+  padding-right: 20px;
+  
+
+}
+#navbar ul li a{
+  text-decoration: none;
+  
+  font-size: 1.5em;
+  color: white
+}
+#navbar ul li a:hover{
+  color: black;
+  
+}
+/*introduction*/
+#introduction img{
+  border: 2px solid black;
+  
+  
+}
+#introduction-content{
+  
+  font-size: 1.8em;
+}
+
+/*three column*/
+#three-column{
+  font-size: 1.5em;;
+}
+#three-column button{
+  position: relative;
+  top: -10px;
+}
+#three-column button a{
+  text-decoration: none;
+  font-size: 1em;
+  color: black;
+  
+  
+}
+#three-column button a:hover{
+  color: white;
+  
+}
+/*footer*/
+#footer{
+  background-color:darkred;
+  color: white;
+}
+#footer i{
+  font-size: 3em;
+  letter-spacing: 30px;
+  color: white;
+  
+}
+
+#footer i:hover{
+  
+  transform: scale(1.3);
+}
